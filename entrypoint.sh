@@ -1,6 +1,6 @@
 #!/bin/sh -l
 
-git ftp init \
+git ftp push --force \
   --auto-init \
   --syncroot $INPUT_SYNCROOT \
   --user $INPUT_USER \
